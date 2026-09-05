@@ -1,0 +1,8 @@
+{
+  "name": "Atelier Control 2",
+  "description": "Sistema de gestão.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
+

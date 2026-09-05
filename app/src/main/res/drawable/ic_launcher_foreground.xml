@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Golden Geometric "A" Monogram -->
+    <!-- Left Leg -->
+    <path
+        android:pathData="M52,32 L34,74 L42,74 L54,46 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="34"
+                android:startY="32"
+                android:endX="54"
+                android:endY="74"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FDE68A" />
+                <item android:offset="0.5" android:color="#F59E0B" />
+                <item android:offset="1.0" android:color="#B45309" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right Leg -->
+    <path
+        android:pathData="M56,32 L74,74 L66,74 L54,46 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="32"
+                android:endX="74"
+                android:endY="74"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#F59E0B" />
+                <item android:offset="1.0" android:color="#78350F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Crossbar -->
+    <path
+        android:pathData="M42,58 L66,58 L64,63 L44,63 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="58"
+                android:endX="66"
+                android:endY="63"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FDE68A" />
+                <item android:offset="1.0" android:color="#D97706" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Top Crown / Node -->
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M54,29m-3.5,0a3.5,3.5 0,1 1,7 0a3.5,3.5 0,1 1,-7 0" />
+
+    <!-- Delicate framing accents -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M30,78 L78,78 L78,79.5 L30,79.5 Z" />
+</vector>
